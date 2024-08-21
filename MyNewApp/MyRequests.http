@@ -1,0 +1,23 @@
+GET http://localhost:5026/todos
+
+#####
+POST http://localhost:5026/todos 
+Content-Type: application/json
+
+{
+    "id": 3,
+    "name": "Learns Services",
+    "dueDate": "2024-08-22",
+    "isCompleted": false
+}
+
+#####
+GET http://localhost:5026/todos/2
+
+
+#####
+DELETE http://localhost:5026/todos/2
+
+
+#### 
+GET http://localhost:5026/tasks/1
